@@ -24,8 +24,8 @@ This project models a simplified version of these processes.
 ---
 
 ## 🧩 Project Structure
-
-202602_insurance-claims-data-model/
+```
+202602_DataModelling_InsuranceClaims/
 │
 ├── README.md
 ├── docs/
@@ -34,9 +34,9 @@ This project models a simplified version of these processes.
 ├── data/
 ├── notebooks/
 └── assets/
-
-
+```
 Each folder contains a specific part of the modelling workflow (see repository for details).
+
 
 ---
 
