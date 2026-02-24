@@ -91,7 +91,7 @@ A Jupyter notebook (`notebooks/`) demonstrates:
 
 ---
 
-## 🎯 Why This Project Matters
+## 🎯 Why This I built this:
 This project showcases practical skills required for a Junior Data Modeller role:
 - Understanding business processes  
 - Designing structured data models  
@@ -103,7 +103,7 @@ It demonstrates the ability to translate business rules into technical artefacts
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 Potential Future Enhancements
 - Add dimensional modelling (star schema)  
 - Introduce Data Vault components  
 - Build a small dashboard using the model  
