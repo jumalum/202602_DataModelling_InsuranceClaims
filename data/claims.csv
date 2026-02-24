@@ -1,0 +1,6 @@
+ClaimID,PolicyID,ClaimDate,ClaimType,ClaimStatus,ClaimAmount
+1001,101,2024-03-10,Collision,Open,2500.00
+1002,102,2024-04-22,Fire,Closed,8000.00
+1003,103,2024-05-05,MagicalIncident,Rejected,9999.99
+1004,104,2024-06-12,WaterDamage,Pending,1200.00
+1005,105,2024-07-01,Explosion,Closed,15000.00

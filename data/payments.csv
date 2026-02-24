@@ -1,0 +1,3 @@
+PaymentID,ClaimID,PaymentDate,PaymentAmount,PaymentMethod
+5001,1002,2024-05-01,8000.00,Bank Transfer
+5002,1005,2024-07-10,15000.00,Cheque

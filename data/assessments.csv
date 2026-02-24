@@ -1,0 +1,5 @@
+AssessmentID,ClaimID,AssessorID,AssessmentDate,AssessmentOutcome,Notes
+3001,1001,9002,2024-03-12,Needs Review,"Vehicle identified as 'The Mystery Machine'; damage appears ghost-related but no supernatural evidence found."
+3002,1003,9003,2024-05-06,Rejected,"Claimant (Emperor Kuzco) alleges groove disruption; assessor confirms groove is not an insurable asset."
+3003,1004,9001,2024-06-13,Approved,"Water damage consistent with burst pipe; claimant (Lilo) insists Stitch was uninvolved."
+3004,1005,9001,2024-07-02,Approved,"Explosion attributed to 'unexpected holiday party incident' at Nakatomi Plaza."

@@ -1,0 +1,57 @@
+erDiagram
+
+    CUSTOMER ||--o{ POLICY : "holds"
+    POLICY ||--o{ CLAIM : "generates"
+    CLAIM ||--o{ PAYMENT : "settled by"
+    CLAIM ||--o{ ASSESSMENT : "evaluated by"
+    ASSESSOR ||--o{ ASSESSMENT : "performs"
+
+    CUSTOMER {
+        int CustomerID PK
+        string FirstName
+        string LastName
+        date DOB
+        string Email
+        string Phone
+    }
+
+    POLICY {
+        int PolicyID PK
+        int CustomerID FK
+        string PolicyType
+        date StartDate
+        date EndDate
+        decimal PremiumAmount
+    }
+
+    CLAIM {
+        int ClaimID PK
+        int PolicyID FK
+        date ClaimDate
+        string ClaimType
+        string ClaimStatus
+        decimal ClaimAmount
+    }
+
+    PAYMENT {
+        int PaymentID PK
+        int ClaimID FK
+        date PaymentDate
+        decimal PaymentAmount
+        string PaymentMethod
+    }
+
+    ASSESSOR {
+        int AssessorID PK
+        string Name
+        string CertificationLevel
+    }
+
+    ASSESSMENT {
+        int AssessmentID PK
+        int ClaimID FK
+        int AssessorID FK
+        date AssessmentDate
+        string AssessmentOutcome
+        string Notes
+    }
