@@ -110,9 +110,3 @@ It demonstrates the ability to translate business rules into technical artefacts
 - Add automated schema validation tests  
 
 ---
-
-## 📬 Contact
-If you'd like to discuss the project:  
-**Jaime Power**  
-Melbourne, VIC  
-[LinkedIn](https://linkedin.com/in/jaimempower/) • [Github](https://github.com/jumalum)
